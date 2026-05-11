@@ -1,0 +1,7 @@
+{
+  "parent": "ae2:block/controller/controller_block_lights",
+  "textures": {
+		"0": "ae2:block/controller/center_lights",
+		"1": "ae2:block/controller/top_lights"
+  }
+}

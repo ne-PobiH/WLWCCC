@@ -1,0 +1,33 @@
+filename = 'simulated_gauges-1.1.0.jar'
+name = 'Simulated Gauges'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Simulated Gauges 1.1.0'
+
+[download]
+hash = '3588378ea8d5e424ecd00fdaa16a4e3355f09365'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7981083
+project-id = 1520472
+
+[[x-prismlauncher-dependencies]]
+addonId = '1516421'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1263228'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

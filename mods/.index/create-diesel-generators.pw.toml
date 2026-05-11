@@ -1,0 +1,21 @@
+filename = 'createdieselgenerators-1.21.1-1.3.11.jar'
+name = 'Create: Diesel Generators'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createdieselgenerators-1.21.1-1.3.11.jar'
+
+[download]
+hash = '4251563ec3c21048cf0f097dd0c6d21f2475507b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7869591
+project-id = 869316
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

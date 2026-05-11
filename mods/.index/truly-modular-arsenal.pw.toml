@@ -1,0 +1,29 @@
+filename = 'Truly-Modular-arsenal-arsenal-forge-2.4-1.21.jar'
+name = 'Truly Modular: Arsenal'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.4-1.21-neoforge'
+
+[download]
+hash = 'fe3c3c4339c5e6d9bb623d4bf635ede4e86156331bc77ceb5c53c1bd6c98f10375a088c8ddee8614dc26585f52dfbffeae8f4eeeb56ccedda1963befcaf00c19'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V4LaId7f/versions/dHLBaeMU/Truly-Modular-arsenal-arsenal-forge-2.4-1.21.jar'
+
+[update.modrinth]
+mod-id = 'V4LaId7f'
+version = 'dHLBaeMU'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '40FYwb4z'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'c4Uf1TKc'
+type = 'REQUIRED'

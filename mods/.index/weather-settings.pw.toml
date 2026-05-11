@@ -1,0 +1,21 @@
+filename = 'weathersettings-1.21-2.1.jar'
+name = 'Weather settings[Forge/Fabric]'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'weathersettings-1.21-2.1.jar'
+
+[download]
+hash = 'd175725c33b9ca2821c552a244e2269e0f2f3f88'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5588027
+project-id = 539506
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

@@ -1,0 +1,34 @@
+filename = 'sit-anywhere!-2.3.4.jar'
+name = 'Sit Anywhere!'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.3.4+mod'
+
+[download]
+hash = '4f5a98b75c6edbe6d2a4166b9290dca90a0e9860104d6f13d0e91cb6e3bf2a393c70b943d648bad23fc3f56bbb247adf1d7c86d3fd63cb98738ef19663ff275a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gNPj0UDg/versions/IzxDgWFY/sit-anywhere%21-2.3.4.jar'
+
+[update.modrinth]
+mod-id = 'gNPj0UDg'
+version = 'IzxDgWFY'

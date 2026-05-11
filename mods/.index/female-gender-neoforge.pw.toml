@@ -1,0 +1,18 @@
+filename = 'Female-Gender-Mod-neoforge-1.21-3.2.2.jar'
+name = 'Female Gender Mod (NeoForge)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Female Gender Mod 3.2.2 - 1.21.1'
+
+[download]
+hash = 'f2e4027d0943c04700173a97c88aaebb1f1777ad'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5579007
+project-id = 481655

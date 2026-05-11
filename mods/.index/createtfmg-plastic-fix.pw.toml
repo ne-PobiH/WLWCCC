@@ -1,0 +1,26 @@
+filename = 'plastic_fix-1.0.0.jar'
+name = 'Create:TFMG Plastic Fix'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'c22f4e16ae0fa7b58dcadb7f1e0d6ca9ff3866d715aba0cf5c61fd22a36aaba50a953878438470fd3f75625a9a8eea63f3f4c6a5ed323c29ad52da09dab4dec6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EIAxv67h/versions/Jl6Od0jm/plastic_fix-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'EIAxv67h'
+version = 'Jl6Od0jm'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+version = 'n7NADxiG'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'USgVjXsk'
+type = 'REQUIRED'

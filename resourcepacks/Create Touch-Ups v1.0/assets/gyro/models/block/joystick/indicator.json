@@ -1,0 +1,9 @@
+{
+  "credit": "Hidden former lever geometry",
+  "render_type": "minecraft:cutout_mipped",
+  "texture_size": [16, 16],
+  "textures": {
+    "particle": "create:block/brass_gearbox"
+  },
+  "elements": []
+}

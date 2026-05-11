@@ -1,0 +1,29 @@
+filename = 'windtunnel-1.0.6.jar'
+name = 'Wind Tunnel'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'windtunnel-1.0.6.jar'
+
+[download]
+hash = '96342cdd1f07888a2f1cd509faf7263515558d1d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8063026
+project-id = 1535704
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '626676'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1526348'
+type = 'OPTIONAL'

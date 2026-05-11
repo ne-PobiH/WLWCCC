@@ -1,0 +1,18 @@
+filename = 'sablemassview-1.0.0.jar'
+name = 'Sable: Mass view (Create Aeronautics)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'sablemassview-1.0.0.jar'
+
+[download]
+hash = 'e568ce1389bcb259483766cf35542dbc8cefb2b1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7948985
+project-id = 1518454

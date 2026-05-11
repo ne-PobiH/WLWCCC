@@ -1,0 +1,25 @@
+filename = 'deployer-0.1.2.jar'
+name = 'Create: Deployer API'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Deployer [0.1.2]'
+
+[download]
+hash = 'c3d2d9baad2e714cb8bf8ae6df9bc9cac6e87c1c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7981471
+project-id = 1516421
+
+[[x-prismlauncher-dependencies]]
+addonId = '1516453'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

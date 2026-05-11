@@ -1,0 +1,32 @@
+filename = 'SableEdit-neoforge-0.0.4.jar'
+name = 'SableEdit'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.0.4'
+
+[download]
+hash = '6f7988ba21824c09903d43555d081f7251e9cff26a2894c7a7ab6f73a495845e714613431c8376440f4aaef24b23df52446ebb8444b9900ce2c1cbde9f8ae366'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/O8cJkJ1H/versions/RGEtBj5G/SableEdit-neoforge-0.0.4.jar'
+
+[update.modrinth]
+mod-id = 'O8cJkJ1H'
+version = 'RGEtBj5G'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'REQUIRED'
+version = '3FMsUjO4'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lOELapP1'
+type = 'OPTIONAL'
+version = 'YrN5j3qw'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1u6JkXh5'
+type = 'REQUIRED'
+version = 'WTAFvuRx'

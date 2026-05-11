@@ -1,0 +1,19 @@
+{
+  "blockedList": {},
+  "editorDragMouseButton": -1.0,
+  "editorLastVersion": "0.6.25a",
+  "editorMenuMouseButton": 1.0,
+  "editorRecentProjects": [
+    "C:\\Users\\PobiH\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1\\minecraft\\cpm\\model.cpmproject",
+    "C:\\Users\\PobiH\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1\\minecraft\\cpm\\model1.cpmproject"
+  ],
+  "editorRotateMouseButton": 2.0,
+  "editorSelectMouseButton": 0.0,
+  "editorUVAreaAlpha": 0.8,
+  "keybinds": {},
+  "serverSettings": {},
+  "titleScreenButton": true,
+  "selectedModelOld": "~~VANILLA~~",
+  "selectedModel": ".temp.cpmmodel",
+  "reopenProject": "C:\\Users\\PobiH\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1\\minecraft\\cpm\\model1.cpmproject"
+}

@@ -1,0 +1,27 @@
+==== Connector Mixin Patch Audit Summary ====
+Successful: 3
+Partial: 0
+Failed: 0 (2 ignored)
+Success rate: 60.00%        Accuracy: 60.00%
+=============================================
+
+=============== Failed mixins ===============
+(ignored) com/notunanancyowen/mait/mixin/SkeletonTrapMixin doTheThing(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+(ignored) com/notunanancyowen/mait/mixin/SkeletonTrapMixin spawnThisGuyAndAddEmToTheTeam(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/entity/Entity;
+=============================================
+
+Mixin method com/notunanancyowen/mait/mixin/RangedBowAttackGoalMixin fixBowUseBug(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionHand;
+  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
+     - Set property 'method' to: MethodQualifier[owner=null, name=tick, desc=()V]
+     - Set property 'at' to: AtData{value=INVOKE, target=Lnet/minecraft/world/entity/projectile/ProjectileUtil;getWeaponHoldingHand(Lnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Predicate;)Lnet/minecraft/world/InteractionHand;}
+
+Mixin method com/notunanancyowen/mait/mixin/RangedCrossbowAttackGoalMixin fixCrossbowUseBug(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionHand;
+  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
+     - Set property 'method' to: MethodQualifier[owner=null, name=tick, desc=()V]
+     - Set property 'at' to: AtData{value=INVOKE, target=Lnet/minecraft/world/entity/projectile/ProjectileUtil;getWeaponHoldingHand(Lnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Predicate;)Lnet/minecraft/world/InteractionHand;}
+
+Mixin method com/notunanancyowen/mait/mixin/RangedBowAttackGoalMixin suppressThisBowPull(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
+     - Set property 'method' to: MethodQualifier[owner=null, name=tick, desc=()V]
+     - Set property 'at' to: AtData{value=INVOKE, target=Lnet/minecraft/world/entity/Mob;startUsingItem(Lnet/minecraft/world/InteractionHand;)V}
+

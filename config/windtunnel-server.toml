@@ -1,0 +1,21 @@
+[wind_tunnel]
+	#Maximum number of open blocks scanned in front of a wind tunnel.
+	# Default: 16
+	# Range: 1 ~ 256
+	maxRange = 16
+	#Base local air velocity injected by the tunnel, in blocks-per-second.
+	# Default: 12.0
+	# Range: 0.1 ~ 128.0
+	baseAirspeed = 12.0
+	#How much the push weakens from the nozzle to the end of the stream.
+	# Default: 0.65
+	# Range: 0.0 ~ 0.95
+	forceFalloff = 0.65
+	#Half-width of the tunnel effect on the two axes perpendicular to the flow.
+	# Default: 0.85
+	# Range: 0.1 ~ 3.0
+	crossSectionRadius = 0.85
+	#Upper clamp for the injected local air velocity, in blocks-per-second.
+	# Default: 64.0
+	# Range: 0.1 ~ 128.0
+	maxAirspeed = 64.0

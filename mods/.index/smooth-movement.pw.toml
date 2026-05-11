@@ -1,0 +1,21 @@
+filename = 'smoothmovement-1.21.1-2.7.jar'
+name = 'Smooth Movement'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'smoothmovement-1.21.1-2.7.jar'
+
+[download]
+hash = '9b2085e5c0ad10aa07bc145e6c0081f407db97b3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7640087
+project-id = 852498
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

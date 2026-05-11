@@ -1,0 +1,18 @@
+filename = 'ears-neoforge-1.21-1.4.7.jar'
+name = 'Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[NEOFORGE 1.21] Ears v1.4.7'
+
+[download]
+hash = 'd0a3ffe1cdfcf9dcd8d639fb929ffee1f7e140bf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6166554
+project-id = 412013

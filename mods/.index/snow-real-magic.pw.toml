@@ -1,0 +1,25 @@
+filename = 'SnowRealMagic-1.21.1-NeoForge-12.2.1.jar'
+name = 'Snow! Real Magic! ⛄ (Neo/Forge)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[NeoForge 1.21.1] 12.2.1'
+
+[download]
+hash = 'eb1094ad9dbf9d95cf876c102f998119a54cf44e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7579809
+project-id = 308663
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '303657'
+type = 'REQUIRED'

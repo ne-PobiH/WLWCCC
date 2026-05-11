@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"wood": "ae2:block/crank_base"
+	},
+	"elements": [
+		{
+			"name": "Connector",
+			"from": [5, 0, 5],
+			"to": [11, 3, 11],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [10, 10, 16, 7], "rotation": 180, "texture": "#wood"},
+				"east": {"uv": [10, 7, 16, 10], "texture": "#wood"},
+				"south": {"uv": [10, 7, 16, 10], "texture": "#wood"},
+				"west": {"uv": [10, 10, 16, 7], "rotation": 180, "texture": "#wood"},
+				"up": {"uv": [4, 10, 10, 16], "rotation": 180, "texture": "#wood"},
+				"down": {"uv": [10, 10, 16, 16], "texture": "#wood"}
+			}
+		}
+	]
+}

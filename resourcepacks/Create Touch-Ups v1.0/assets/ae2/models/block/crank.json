@@ -1,0 +1,64 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "ae2:block/crank_base",
+		"particle": "ae2:block/crank",
+		"wood": "ae2:block/crank"
+	},
+	"elements": [
+		{
+			"name": "Connector",
+			"from": [5, 0, 5],
+			"to": [11, 3, 11],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [10, 10, 16, 7], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [10, 7, 16, 10], "texture": "#1"},
+				"south": {"uv": [10, 7, 16, 10], "texture": "#1"},
+				"west": {"uv": [10, 10, 16, 7], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [4, 10, 10, 16], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10, 10, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Arm",
+			"from": [-3, 5, 8],
+			"to": [13, 8, 10],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [2, 6, 5, 8], "rotation": 270, "texture": "#wood"},
+				"south": {"uv": [0, 10, 16, 13], "rotation": 180, "texture": "#wood"},
+				"west": {"uv": [9, 0, 6, 2], "rotation": 90, "texture": "#wood"},
+				"up": {"uv": [0, 0, 16, 2], "rotation": 180, "texture": "#wood"},
+				"down": {"uv": [0, 11, 16, 9], "texture": "#wood"}
+			}
+		},
+		{
+			"name": "Arm",
+			"from": [-3, 5, 6],
+			"to": [13, 8, 8],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 10, 16, 13], "rotation": 180, "texture": "#wood"},
+				"east": {"uv": [6, 2, 9, 0], "rotation": 270, "texture": "#wood"},
+				"west": {"uv": [5, 8, 2, 6], "rotation": 90, "texture": "#wood"},
+				"up": {"uv": [0, 14, 16, 16], "rotation": 180, "texture": "#wood"},
+				"down": {"uv": [0, 9, 16, 11], "texture": "#wood"}
+			}
+		},
+		{
+			"name": "Grip",
+			"from": [6, 3, 7],
+			"to": [10, 5, 9],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [11, 4, 15, 6], "rotation": 180, "texture": "#wood"},
+				"east": {"uv": [12, 6, 10, 4], "texture": "#wood"},
+				"south": {"uv": [11, 6, 15, 4], "texture": "#wood"},
+				"west": {"uv": [12, 4, 10, 6], "rotation": 180, "texture": "#wood"},
+				"down": {"uv": [12, 9, 8, 11], "texture": "#wood"}
+			}
+		}
+	]
+}

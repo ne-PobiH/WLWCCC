@@ -1,0 +1,18 @@
+filename = 'ccredstonelinkbridge-neoforge-1.0.3.jar'
+name = 'CC: Redstone Link Bridge'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ccredstonelinkbridge-neoforge-1.0.3.jar'
+
+[download]
+hash = 'b69762fa09601ae6283e8a12bcef033efd14d2ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7955520
+project-id = 1506475

@@ -1,0 +1,6 @@
+{
+  "parent": "ae2:block/controller/controller_block_lights_x",
+  "textures": {
+		"0": "ae2:block/controller/horiztonal_base"
+  }
+}

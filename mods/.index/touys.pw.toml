@@ -1,0 +1,21 @@
+filename = 'touys-neoforge-1.21.1-1.0.5.jar'
+name = 'Sable Touys'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] Sable Touys 1.0.5'
+
+[download]
+hash = 'affaaeaa8180b179902f565609b41107ddcf3d8a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8003950
+project-id = 1486358
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312371'
+type = 'REQUIRED'

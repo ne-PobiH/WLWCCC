@@ -1,0 +1,29 @@
+filename = 'aerocables-0.2.0.jar'
+name = 'Create: Aero Cables'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21-0.2.0'
+
+[download]
+hash = '59109377cb8b763102a9715d0ac22321f83cb9638413b052ec65a515cce77ea0b7028143fa0ada55d12f7942b5878d9e2eab17cb9068ca537a802f1b4c67d8e9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AHTfty0S/versions/f9GuauDo/aerocables-0.2.0.jar'
+
+[update.modrinth]
+mod-id = 'AHTfty0S'
+version = 'f9GuauDo'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XxWD5pD3'
+type = 'OPTIONAL'

@@ -36,3 +36,5 @@ ServerEvents.recipes(event => {
         Item.of('betterend:thallasium_ingot', 2)
     ])
 })
+
+//Надо этот кал на разные файлы раскидать

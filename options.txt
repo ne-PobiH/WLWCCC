@@ -270,10 +270,10 @@ key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_simulated.keyinfo.rotate_mode:key.keyboard.tab
 key_simulated.keyinfo.scroll_up:key.keyboard.unknown
@@ -379,6 +379,7 @@ key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
 key_dndesires.keyinfo.saw_active:key.keyboard.left.alt
 key_dndesires.keyinfo.drill_active:key.keyboard.left.alt
+key_key.aeroworks.joystick.free_camera:key.keyboard.left.shift
 key_key.pipeorgans.midi_config:key.keyboard.semicolon
 key_key.sable_schematic_api.blueprint_tool.open:key.keyboard.tab
 key_miapi.test:key.keyboard.36

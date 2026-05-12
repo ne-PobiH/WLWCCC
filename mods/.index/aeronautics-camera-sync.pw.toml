@@ -1,19 +1,19 @@
-filename = 'aero_cam_sync-1.1.0.jar'
+filename = 'aero_cam_sync-1.2.0.jar'
 name = 'Aeronautics Camera Sync'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'aero_cam_sync-1.1.0.jar'
+x-prismlauncher-version-number = 'aero_cam_sync-1.2.0.jar'
 
 [download]
-hash = '5ee22216159b05ca8f5855aea4d24770029a5f7d'
+hash = 'cb2d654c4d3c17d2881aa62e1dc353197a78710b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8000267
+file-id = 8069689
 project-id = 1526820
 
 [[x-prismlauncher-dependencies]]

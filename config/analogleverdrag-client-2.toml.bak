@@ -1,0 +1,39 @@
+[position]
+	#Horizontal offset for the linear lever UI.
+	# Default: 0
+	# Range: -400 ~ 400
+	linear_offset_x = 0
+	#Vertical offset for the linear lever UI.
+	# Default: 0
+	# Range: -400 ~ 400
+	linear_offset_y = 0
+	#Horizontal offset for the circular crank UI.
+	# Default: 0
+	# Range: -400 ~ 400
+	circular_offset_x = 0
+	#Vertical offset for the circular crank UI.
+	# Default: 0
+	# Range: -400 ~ 400
+	circular_offset_y = 0
+
+[interface]
+	#If enabled, wall-mounted linear levers use inverted vertical UI: signal 0 at top and 15 at bottom. Disable to keep one direction everywhere.
+	orientation_aware_linear_ui = true
+	#If enabled, the drag interface overlay is shown. Disable to keep drag control active but hide all drag HUD/interface visuals.
+	show_interface = true
+	#If enabled, click a supported lever once to open the drag interface and click Use again to close it. Disable for the classic hold-to-drag behavior.
+	toggle_interaction = false
+	#If enabled, the outer rectangular overlay panel is drawn around the lever UI. Disable to show only the lever element itself.
+	show_interface_panel = true
+	#If enabled, discrete step markers are drawn on the linear lever UI.
+	show_step_markers = true
+
+[sensitivity]
+	#Sensitivity for Create and DnDecor linear levers.
+	# Default: 0.65
+	# Range: 0.01 ~ 10.0
+	linear_sensitivity = 0.65
+	#Sensitivity for the Supplementaries circular crank.
+	# Default: 0.6
+	# Range: 0.01 ~ 10.0
+	circular_sensitivity = 0.6

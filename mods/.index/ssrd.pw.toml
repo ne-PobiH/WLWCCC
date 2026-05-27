@@ -1,0 +1,18 @@
+filename = 'SSRD-0.4-1.21.1.jar'
+name = 'Separate Sable Render Distance (Aeronautics Addon)'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.4'
+
+[download]
+hash = 'e42b8813a1a2fd92b8e9239e56279e4bc43515fc52992209dae2175d736754dc8cc57f7aa8ff61c288f59571800edb52ce466c0fd44367953310b2b7dfb3cdb6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fJ183v3D/versions/w03dSfpb/SSRD-0.4-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'fJ183v3D'
+version = 'w03dSfpb'

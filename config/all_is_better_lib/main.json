@@ -1,0 +1,13 @@
+{
+  "create_version": "0.0.0",
+  "log": {
+    "verbose": true
+  },
+  "server": {
+    "force_default_world_preset": true
+  },
+  "modify_version": "0.0.0",
+  "patches": {
+    "apply_patches": true
+  }
+}

@@ -54,3 +54,17 @@
 	# Default: 4000
 	# Range: 1000 ~ 100000
 	fluidPerPackage = 4000
+
+#Pipette settings
+[pipette]
+	#Maximum distance in blocks a Pipette can reach across.
+	# Default: 5
+	# Range: > 1
+	range = 5
+
+#Logistics Junction settings
+[logistics_junction]
+	#Maximum distance for a Logistics Junction flexible upper-output link.
+	# Default: 5
+	# Range: > 1
+	linkRange = 5

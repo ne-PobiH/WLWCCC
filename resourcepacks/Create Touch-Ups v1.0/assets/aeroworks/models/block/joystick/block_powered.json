@@ -1,0 +1,7 @@
+{
+	"parent": "aeroworks:block/joystick/block",
+	"textures": {
+		"0": "aeroworks:block/joystick/brass/block_powered",
+		"particle": "aeroworks:block/joystick/brass/antenna_powered"
+	}
+}

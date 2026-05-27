@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "facing=down": { "model": "aeroworks:block/gyroscope/block" },
+    "facing=up":   { "model": "aeroworks:block/gyroscope/block", "x": 180 }
+  }
+}

@@ -91,7 +91,8 @@
       "roughen": "none",
       "shatter": "none",
       "extrude": "y",
-      "modify": "none"
+      "modify": "none",
+      "blend": "none"
     }
   },
   "visuals": {
@@ -120,7 +121,7 @@
     "tinker": false,
     "infiniteReach": false,
     "infiniteReachLimit": -1,
-    "fastPlace": false,
+    "fastPlace": true,
     "angelPlacement": false,
     "noClip": true,
     "phantom": false

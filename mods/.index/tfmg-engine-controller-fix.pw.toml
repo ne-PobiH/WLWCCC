@@ -1,0 +1,21 @@
+filename = 'fix_tfmgcontroller-1.0.3.jar'
+name = 'TFMG: Engine controller Fix'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fix_tfmgcontroller-1.0.3.jar'
+
+[download]
+hash = 'df2aae1127a9a04e04bf54df118f9d3fc0068c13'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8025241
+project-id = 1452755
+
+[[x-prismlauncher-dependencies]]
+addonId = '693815'
+type = 'REQUIRED'

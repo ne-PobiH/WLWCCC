@@ -1,0 +1,21 @@
+filename = 'exposure_catalog-neoforge-1.1.1.jar'
+name = 'Exposure Catalog'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.1'
+
+[download]
+hash = '8b847928e3234829895e45b0f8454de9f3f98dd0dfec15287b06bd7e38ff2874cc20051d95c21a8e08ebaeb3b4640bb2437f07241eea5546187b05c2a8344545'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PWcQ3kcp/versions/OOrLeZEH/exposure_catalog-neoforge-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'PWcQ3kcp'
+version = 'OOrLeZEH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hB899VmG'
+type = 'REQUIRED'

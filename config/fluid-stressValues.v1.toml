@@ -4,3 +4,4 @@
 	centrifugal_pump = 8.0
 	pipette = 2.0
 	fluid_atomizer = 4.0
+	logistics_junction = 8.0

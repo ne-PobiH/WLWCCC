@@ -1,0 +1,18 @@
+filename = 'sable-weighted_addons-1.0.2.jar'
+name = 'Sable: Weighted - Add-On Bundle'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2'
+
+[download]
+hash = 'bd8ec826dd174dd7c0dcb33abc2c2a3dbad632abf3f14c3e451185e2af6e30c7fddda83b87522afd578c9e2a3489f4e851df0c38e6c1a3bb15e82b75f0f6c351'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gIGuk9m4/versions/LzVbzUws/sable-weighted_addons-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'gIGuk9m4'
+version = 'LzVbzUws'

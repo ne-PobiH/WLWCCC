@@ -1,0 +1,10 @@
+{
+  "minecraft:obsidian": {
+    "maxDepthY": -150,
+    "implosionChance": 0.08
+  },
+  "minecraft:reinforced_deepslate": {
+    "maxDepthY": -250,
+    "implosionChance": 0.01
+  }
+}

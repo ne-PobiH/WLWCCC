@@ -57,12 +57,19 @@
     "show_tree_block_counts": true,
     "show_num_chops_remaining": true
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
     "block": true,
     "entity": true,
     "entity_variant": true
+  },
+  "immersiveengineering": {
+    "multiblock_icon": true
   },
   "betterend": {
     "plant_growth": true

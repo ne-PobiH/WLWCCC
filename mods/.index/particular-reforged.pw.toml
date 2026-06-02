@@ -1,21 +1,33 @@
-filename = 'particular-1.21.1-NeoForge-1.5.0.jar'
-name = 'Particular'
+filename = 'particular-1.21.1-NeoForge-1.5.3.jar'
+name = 'Particular Reforged'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'particular-1.21.1-NeoForge-1.5.0.jar'
+x-prismlauncher-version-number = 'particular-1.21.1-NeoForge-1.5.3.jar'
 
 [download]
-hash = '6d240e1189db514b8607abbb32eb8153983abc84'
+hash = '4daa6343ed9e77596bb60d2bbf3f6c40c7312c56'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8089916
+file-id = 8161696
 project-id = 1219053
 
 [[x-prismlauncher-dependencies]]
 addonId = '455508'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312371'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '676721'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
 type = 'OPTIONAL'

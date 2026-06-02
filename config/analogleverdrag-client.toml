@@ -51,6 +51,10 @@
 	circular_ui_smoothing = 0.15
 	#If enabled, the circular crank UI shows 0..15 numbers in both normal and fair crank modes. Visual only; does not change timing or redstone.
 	show_fair_crank_numbers = true
+	#If enabled, DnDecor breaker switch uses its own dark red/gray overlay theme. If disabled, it uses the normal DnDecor linear lever colors.
+	breaker_switch_block_theme = true
+	#If enabled, DnDecor breaker switch shows 0/8/15 labels next to its three allowed positions. Requires step markers to be enabled.
+	show_breaker_switch_step_labels = true
 
 [sensitivity]
 	#Sensitivity for Create and DnDecor linear levers.
@@ -71,3 +75,5 @@
 	client_enable_dndecor_stepped_lever = true
 	#Client-side toggle: show/use ALD UI for Supplementaries crank on this client.
 	client_enable_supplementaries_crank = true
+	#Client-side toggle: show/use ALD UI for DnDecor breaker switch on this client.
+	client_enable_dndecor_breaker_switch = true

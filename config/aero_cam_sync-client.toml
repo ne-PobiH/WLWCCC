@@ -3,11 +3,11 @@ enabled = false
 #Maximum tilt threshold (0.0 - 1.0)
 # Default: 0.8
 # Range: 0.0 ~ 1.0
-minNormalY = 0.5
+minNormalY = 0.8
 #Tilt interpolation speed per frame (0.0 = instant snap, 9999 = never moves)
 # Default: 1.7
 # Range: 0.0 ~ 9999.0
-smoothSpeed = 0.07
+smoothSpeed = 1.7
 #Allow in 3rd person view (BETA)
 allow3rdPerson = false
 #Rotate camera
@@ -30,3 +30,36 @@ upLength = 0.2
 rays = false
 #Show tilted pick ray
 pickRays = false
+#Force use client
+clientOnly = false
+#Toggle mod keybind
+toggleKey = "key.keyboard.keypad.7"
+#Open config screen keybind
+openConfigKey = "key.keyboard.unknown"
+#Disable camera tilt when player holds a listed item (client-side)
+clientBlacklistEnabled = true
+#Consider item in offhand for blacklist checking
+considerOffhand = true
+#Add mainhand item to blacklist if not already present
+addMainhandItemKey = ""
+#Item IDs that disable camera tilt (client-side), e.g. minecraft:bow
+clientBlacklistIds = ["minecraft:bow", "minecraft:crossbow", "minecraft:fishing_rod", "minecraft:snowball", "minecraft:egg", "minecraft:wind_charge", "minecraft:ender_pearl", "minecraft:brush", "minecraft:trident", "minecraft:bucket", "minecraft:water_bucket", "minecraft:lava_bucket", "minecraft:cod_bucket", "minecraft:tropical_fish_bucket", "minecraft:pufferfish_bucket", "minecraft:salmon_bucket", "minecraft:axolotl_bucket", "minecraft:tadpole_bucket", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:experience_bottle", "create:potato_cannon", "create:honey_bucket", "create:chocolate_bucket", "create:handheld_worldshaper", "create:schematic_and_quill", "create:schematic", "simulated:plunger_launcher", "aeronautics:levitite_blend_bucket"]
+#Disable camera tilt when player holds a listed item (server-side)
+serverBlacklistEnabled = false
+#Item IDs that disable camera tilt (server-side), e.g. minecraft:bow
+serverBlacklistIds = []
+#Immediately forgot sublevel when player step off
+dropOnAllMiss = true
+#Stop camera tilt when flying (Creative or Spectator)
+disableOnFlying = true
+#time until the pick rays disappear
+# Default: 3.0
+# Range: 0.01 ~ 600.0
+pickRaysTime = 3.0
+#Show debug message in console
+debugMessages = false
+#Config schema version. Do not edit manually.
+#Used to detect when a config reset prompt should be shown.
+# Default: 0
+# Range: > 0
+configSchemaVersion = 3

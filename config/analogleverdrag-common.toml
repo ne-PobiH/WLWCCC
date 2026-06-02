@@ -5,6 +5,8 @@
 	enable_dndecor_stepped_lever = true
 	#Server/common toggle: enable drag control for Supplementaries crank for all players.
 	enable_supplementaries_crank = true
+	#Server/common toggle: enable drag control for DnDecor breaker switch for all players.
+	enable_dndecor_breaker_switch = true
 
 [server]
 	#Server/common toggle: allow Create-wrench inversion for supported linear levers.

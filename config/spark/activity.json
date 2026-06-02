@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "mapih",
+      "uniqueId": "5eb73386-36b3-46e9-b41e-d5e172b0b77e"
+    },
+    "time": 1780263216758,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/EZgtPyO0ze"
+    }
+  }
+]

@@ -59,12 +59,12 @@
 	offset_v_light_hud = 0
 
 [Animations]
+	#Enable custom animation of falling
+	enable_falling_animation = false
+	#Enable lean animation while FastRun
+	enable_lean_animation_fast_run = false
 	#Enable custom animations
 	enable_animation = true
-	#Enable custom animation of falling
-	enable_falling_animation = true
-	#Enable lean animation while FastRun
-	enable_lean_animation_fast_run = true
 	#Enable first-person-view animations
 	enable_fpv_animation = false
 	#Enable rotation of camera by Dodge

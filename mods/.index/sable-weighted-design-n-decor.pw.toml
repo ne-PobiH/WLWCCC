@@ -1,33 +1,18 @@
-filename = 'sable-weighted_dndecor-1.0.0.jar'
-name = "Sable: Weighted - Design n' Decor"
-side = 'server'
+filename = 'sable-weighted_dndecor-1.1.0.jar'
+name = "Design N' Decor Sable Compatibility"
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.0'
+x-prismlauncher-version-number = '1.1.0'
 
 [download]
-hash = 'e683dfc5c6d4b6ff2d955af30c2111c1b7367e343232aedc35318679eb2a733c102f00743e338dcf25535c5a209aab8215b6c713dcb19240c12943acc9e9b42f'
+hash = '9c638eed44c94dfbf3ed1864beabf87b0381856edbafd2dfd3497280277b3e993e2c821340c101602f479282ba8c613539f79b06a620f70e36da69307cea544c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ZpfgB3tl/versions/ZmcWuJnp/sable-weighted_dndecor-1.0.0.jar'
+url = 'https://cdn.modrinth.com/data/ZpfgB3tl/versions/vzgzpZSX/sable-weighted_dndecor-1.1.0.jar'
 
 [update.modrinth]
 mod-id = 'ZpfgB3tl'
-version = 'ZmcWuJnp'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'LNytGWDc'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'T9PomCSv'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'oWaK0Q19'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'x49wilh8'
-type = 'REQUIRED'
+version = 'vzgzpZSX'

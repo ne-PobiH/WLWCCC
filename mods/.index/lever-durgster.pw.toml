@@ -1,18 +1,18 @@
-filename = 'analogleverdrag-neoforge-1.21.1-1.4.0.jar'
+filename = 'analogleverdrag-neoforge-1.21.1-1.5.0.jar'
 name = 'Analog Lever Drag Control'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'analogleverdrag-neoforge-1.21.1-1.4.0.jar'
+x-prismlauncher-version-number = 'analogleverdrag-neoforge-1.21.1-1.5.0.jar'
 
 [download]
-hash = '212b3f79b2ec5d68af370ac18772e38f5a12a254'
+hash = 'a06ec9e7266d88dc95ba26bf2a673e773ffa0a1e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8083094
+file-id = 8169078
 project-id = 1530992

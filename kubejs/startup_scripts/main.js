@@ -32,9 +32,15 @@ ItemEvents.modification(event => {
 
     id = BuiltInRegistries.ITEM.getKey(mcItem).toString()
 
-    newNutrition = Math.max(1, Math.floor(oldFood.nutrition() / n))
+    newNutrition = oldFood.nutrition() == 0
+      ? 0
+      : Math.max(1, Math.floor(oldFood.nutrition() / n))
+
     newSaturation = Math.floor(oldFood.saturation() / n)
-    newSaturationModifier = newSaturation / (newNutrition * 2)
+
+    newSaturationModifier = newNutrition > 0
+      ? newSaturation / (newNutrition * 2)
+      : 0
 
     changeFood(event, id, newNutrition, newSaturationModifier)
   }

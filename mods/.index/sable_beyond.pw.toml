@@ -1,20 +1,20 @@
-filename = 'sablebeyond-neoforge-1.21.1-v0.0.2.jar'
+filename = 'sablebeyond-neoforge-1.21.1-v0.0.3.jar'
 name = 'Sable Beyond'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'alpha'
-x-prismlauncher-version-number = 'neoforge1.21.1+v0.0.2'
+x-prismlauncher-version-number = 'neoforge1.21.1+v0.0.3'
 
 [download]
-hash = '842515a962ac88f549e499860c360606a6d6cadd8287bc1b35acae433614d6f5c086fc401950f03506c59b60cdee54cfbcd465b4f0891fe2616a29786a616032'
+hash = 'ecdce471211d3e5e4b91cec3b2d3061830d27bf2c2070847df91a66c2a01b8273d09ce0264c650d0977a4cc595531101c8aa9baace38301d9c7a0c8d301cff5b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/PrW3B4fH/versions/290Gautu/sablebeyond-neoforge-1.21.1-v0.0.2.jar'
+url = 'https://cdn.modrinth.com/data/PrW3B4fH/versions/ueGo99s0/sablebeyond-neoforge-1.21.1-v0.0.3.jar'
 
 [update.modrinth]
 mod-id = 'PrW3B4fH'
-version = '290Gautu'
+version = 'ueGo99s0'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'

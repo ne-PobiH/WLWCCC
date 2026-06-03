@@ -724,15 +724,15 @@
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
-		zombie_horse_conversion = true
+		zombie_horse_conversion = false
 		#Amount of rotten flesh needed
 		# Default: 64
 		# Range: 1 ~ 1000
 		rotten_flesh = 64
 		#Allows zombie horses to be ridden underwater
-		rideable_underwater = true
+		rideable_underwater = false
 		#Convert a zombie horse back by feeding it a golden carrot
-		zombie_horse_inverse_conversion = true
+		zombie_horse_inverse_conversion = false
 
 	[tweaks.noteblocks_scare]
 		#Noteblocks with a zombie head will scare off villagers

@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:brass_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:brass_bars"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:train_trapdoor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:rose_quartz_block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -121,7 +121,7 @@
     "tinker": false,
     "infiniteReach": false,
     "infiniteReachLimit": -1,
-    "fastPlace": false,
+    "fastPlace": true,
     "angelPlacement": false,
     "noClip": true,
     "phantom": false
@@ -179,7 +179,9 @@
     "showOpenEditorTip": false,
     "completedTutorials": [
       "introduction",
-      "selection"
+      "selection",
+      "magic_select_tool",
+      "box_select_tool"
     ],
     "openEditorWindowTypes": [
       "tools",

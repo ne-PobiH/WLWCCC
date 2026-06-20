@@ -1,18 +1,21 @@
-filename = 'etched-5.0.0.jar'
+filename = 'etched-5.1.0.jar'
 name = 'Etched'
 side = 'server'
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[Forge 1.21.1] Etched 5.0.0'
+x-prismlauncher-version-number = 'Etched 5.1.0 NeoForge'
 
 [download]
-hash = '1ed97c62a878a68ec68b6f2575d127f8ccb7f81c'
+hash = '0cc1f1d0bc5d9af3f9ffbb8ce166f5cc9b59ec89'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7088631
+file-id = 8207347
 project-id = 491890
+
+[[x-prismlauncher-dependencies]]
+addonId = '618298'
+type = 'OPTIONAL'

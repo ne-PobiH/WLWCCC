@@ -1,19 +1,19 @@
-filename = 'tfmg-1.2.0.jar'
+filename = 'tfmg-1.2.2.jar'
 name = 'Create: The Factory Must Grow'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'tfmg-1.2.0-1.21.1'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'tfmg-1.2.2-1.21.1'
 
 [download]
-hash = 'b520f3687f60a69eb265ff5b9a16759b9e124103'
+hash = '5cce8ff5b1b985ff3f67ac95d9e76a4998ee01db'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7430073
+file-id = 8205648
 project-id = 693815
 
 [[x-prismlauncher-dependencies]]

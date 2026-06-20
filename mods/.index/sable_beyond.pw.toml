@@ -1,31 +1,29 @@
-filename = 'sablebeyond-neoforge-1.21.1-v0.0.3.jar'
+filename = 'sablebeyond-neoforge-1.21.1-v0.4.1.jar'
 name = 'Sable Beyond'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'alpha'
-x-prismlauncher-version-number = 'neoforge1.21.1+v0.0.3'
+x-prismlauncher-version-number = 'neoforge1.21.1+v0.4.1'
 
 [download]
-hash = 'ecdce471211d3e5e4b91cec3b2d3061830d27bf2c2070847df91a66c2a01b8273d09ce0264c650d0977a4cc595531101c8aa9baace38301d9c7a0c8d301cff5b'
+hash = 'b9d13a07059798920df3fa3859ce678cf630803e97974e7239556f65a5bfbd135c01be234931e58d8882bc75dda2a1f22cda8aeed7430bfd750980a0f2b6d0e5'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/PrW3B4fH/versions/ueGo99s0/sablebeyond-neoforge-1.21.1-v0.0.3.jar'
+url = 'https://cdn.modrinth.com/data/PrW3B4fH/versions/JRq5Yypd/sablebeyond-neoforge-1.21.1-v0.4.1.jar'
 
 [update.modrinth]
 mod-id = 'PrW3B4fH'
-version = 'ueGo99s0'
+version = 'JRq5Yypd'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'
 type = 'EMBEDDED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'T9PomCSv'
-type = 'REQUIRED'
-version = '3FMsUjO4'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'LNytGWDc'
 type = 'REQUIRED'
-version = 'UjX6dr61'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'REQUIRED'

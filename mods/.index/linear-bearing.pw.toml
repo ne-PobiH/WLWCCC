@@ -1,29 +1,18 @@
-filename = 'linearbearing-1.3.jar'
+filename = 'linearbearing-1.3.5.jar'
 name = 'LinearBearing'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.3'
+x-prismlauncher-version-number = '1.3.5'
 
 [download]
-hash = '1924afebd8e53d76258759156e8dd73fa019b9906ad8ecdfa9c7f1148e73afabdb90a7efddf2089d67cc813bebdf91b3659e9c5fe6ba5bf6aa68cfeb4ce23920'
+hash = 'c9862f34cac34c09109dec8257056f88228d0d751cf1c4f57627eff4cecfecae4c6685f8a06786b7a17f6ed21164a285b4b7242fd68dba0e22d2ad53d35eed78'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ZTwCjE7O/versions/SFZIPxjf/linearbearing-1.3.jar'
+url = 'https://cdn.modrinth.com/data/ZTwCjE7O/versions/8SJdnoXS/linearbearing-1.3.5.jar'
 
 [update.modrinth]
 mod-id = 'ZTwCjE7O'
-version = 'SFZIPxjf'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'LNytGWDc'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'oWaK0Q19'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'T9PomCSv'
-type = 'REQUIRED'
+version = '8SJdnoXS'

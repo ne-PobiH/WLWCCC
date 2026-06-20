@@ -1,18 +1,18 @@
-filename = 'lever-drugster-1.5.2.jar'
-name = 'Analog Lever Drag Control'
+filename = 'lever-drugster-1.7.3.jar'
+name = 'lever drugster'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lever-drugster-1.5.2.jar'
+x-prismlauncher-version-number = 'lever-drugster-1.7.3.jar'
 
 [download]
-hash = 'c07204ec1984f10a45438582e1d0d5d5bf31a362'
+hash = '0ed48d70cc9bec05010c56e40e7bb42e9bf74309'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8179736
+file-id = 8281858
 project-id = 1530992

@@ -1,20 +1,20 @@
-filename = 'Truly-Modular-miapi-neoforge-2.3.6-1.21.jar'
-name = 'Truly Modular: Modular Item API'
-side = 'both'
+filename = 'Truly-Modular-miapi-neoforge-2.3.8-1.21.jar'
+name = 'Truly Modular'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.3.6-1.21-neoforge'
+x-prismlauncher-version-number = '2.3.8-1.21-neoforge'
 
 [download]
-hash = '874b62e80a850276864354780a9eeee9c8c4d1115c98178d7736fc82428bf42765e8818854383d24edb3936e0117ef1cbb87f6356c45627b529c9b66ffbcd92a'
+hash = '5fb24dc923bc3de100946509dc5e80b0e70b74a1a9407b54d5fef7dce4666dc1c53ede833f22aa840dea7b1a248f682b42b15ed9885a2bea1aa2b715c247ae9b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/c4Uf1TKc/versions/kNnLN8Mm/Truly-Modular-miapi-neoforge-2.3.6-1.21.jar'
+url = 'https://cdn.modrinth.com/data/c4Uf1TKc/versions/Iz6PGmyD/Truly-Modular-miapi-neoforge-2.3.8-1.21.jar'
 
 [update.modrinth]
 mod-id = 'c4Uf1TKc'
-version = 'kNnLN8Mm'
+version = 'Iz6PGmyD'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'lhGA9TYQ'

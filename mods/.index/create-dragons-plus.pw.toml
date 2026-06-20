@@ -1,19 +1,19 @@
-filename = 'CreateDragonsPlus-1.10.1.jar'
+filename = 'CreateDragonsPlus-1.11.2b.jar'
 name = 'Create: Dragons Plus'
-side = ''
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'Create: Dragons Plus 1.10.1 for Create 1.21.1-6.0.10'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Dragons Plus 1.11.2b for Create 1.21.1-6.0.10'
 
 [download]
-hash = '0759898cc7ca22ece49e7d7a210db8becfd79cdf'
+hash = 'c0427a7f657f583694e485186621bdeda16ca8dd'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8097174
+file-id = 8219463
 project-id = 1216624
 
 [[x-prismlauncher-dependencies]]

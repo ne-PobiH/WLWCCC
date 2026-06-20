@@ -1,0 +1,4 @@
+[15:08:06] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[15:08:06] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE rprenames_vanillaplus 1.0.0 {depends minecraft @ [>=1.21.11 <1.21.12]}, ROOT_FORCELOAD_SINGLE rprenames_vanillaplus 1.0.0]
+[15:08:06] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP rprenames_vanillaplus 1.0.0 {depends minecraft @ [>=1.21.11 <1.21.12]}, HARD_DEP rprenames_vanillaplus 1.0.0 {depends rprenames @ [>=0.10.0]}]
+[15:08:06] [INFO] [FabricLoader/Resolution]: Fix: add [], remove [], replace [[rprenames_vanillaplus 1.0.0] -> add:rprenames_vanillaplus 1 ([(-∞,∞)])]

@@ -1,19 +1,19 @@
-filename = 'simulatedextra-0.2.5-beta.jar'
-name = 'Simulatedextra'
+filename = 'simulatedextra-0.3-beta.jar'
+name = 'Simulated Extra'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'simulatedextra-0.2.5-beta.jar'
+x-prismlauncher-version-number = 'simulatedextra 0.3-beta.jar'
 
 [download]
-hash = '3f2f7c6db4dda9777950f28b9e1abdbfef3b39e1'
+hash = '433db8dd3c0bd56fb4e26923e971df8004aef987'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8053843
+file-id = 8279472
 project-id = 1531781
 
 [[x-prismlauncher-dependencies]]

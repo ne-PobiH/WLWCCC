@@ -1,31 +1,35 @@
-filename = 'aerocables-0.3.0.jar'
+filename = 'aerocables-0.4.0.jar'
 name = 'Create: Aero Cables'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '1.21-0.3.0'
+x-prismlauncher-version-number = '1.21-0.4.0'
 
 [download]
-hash = '4c47404b5e2bf17a0f44b52f2b00a836281a51bbb91d03968af3c0a2f018150f1eef4490d7cdf86069c9f5a5b175ee8af25e10c0f2d3455a24541dd8a070afc5'
+hash = '3c4fc5ef77ca99c34b97a9249b4e5def572d9d9314c75b9a4105950486900582c2f2e1919f829e13de6231b5a8f2d885f6425de61aa93c892c9212addb2c2310'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/AHTfty0S/versions/8TmD04yf/aerocables-0.3.0.jar'
+url = 'https://cdn.modrinth.com/data/AHTfty0S/versions/Wn81ihHo/aerocables-0.4.0.jar'
 
 [update.modrinth]
 mod-id = 'AHTfty0S'
-version = '8TmD04yf'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'KDvYkUg3'
-type = 'OPTIONAL'
+version = 'Wn81ihHo'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'LNytGWDc'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'gu7yAYhd'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'XxWD5pD3'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'KDvYkUg3'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]

@@ -6,27 +6,65 @@
         "green": "00ff00ff"
     },
     "other": {
-        // Whether Miapi materials can be animated
-        "animated_materials": true,
         // If Editor is enabled despite nucleus not being loaded
         "allow_editor_no_nucleus": false,
         // If a custom render mixin should be used to substitute nucleus editor
         "enable_editor_mixin": false,
         // Can split into new lines on every character, not just space
         "split_new_line": false,
-        "bindings": {
-            "miapi:test": {
-                "entity_interaction": true,
-                "scan_code": 36,
-                "category": "testing-miapi",
-                "block_interaction": true
-            }
+        /*
+        Keybinds are kept in the config so they are available during gamestart.
+        This is required so that.
+        1) Rebinding on the main menu is possible
+        2) Keybindings dont continously default back to their default on world load.
+        
+        This isnt meant to be interacted with by users.
+        */
+        "keybinds": {}
+    },
+    "render": {
+        /*
+        batch rendering optimises modular item rendering by grouping their rendering.
+        This might not work if other mods screw with the rendering internals of one of these things.
+        */
+        "batch_rendering": {
+            "enable_hotbar": true,
+            "enable_armor": true,
+            "enable_inventory": true
         },
-        "cache_sprites": [
+        /*
+        requires resource pack reload to be applied (F3+T)
+        might break in development mode - if stuff stops rendering set this to true
+        might
+        */
+        "enable_fast_render": true,
+        /*
+        fast trim skips vanillas trim rendering in favor of a truly modular implementation
+        in this impl. the trim is copied onto the item texture instead of rendered ontop
+        */
+        "enable_fast_trim": true,
+        /*
+        enables Trail Rendering.
+        Trails might be broken with certain shaders
+        */
+        "enable_trail": true,
+        /*
+        Optimised model might cause compat issues as it uses more aggressive optimisations
+        if items start being invisible consider disabling this
+        */
+        "enable_optimised_model": true,
+        /*
+        The FastRenderer requires these cache sprites to be available.
+        these are pre-allocated and will be used if available, but the api cannot add them on runtime.
+        once these run out the slower renderer will render the overflow.
+        By default its set to ~60 standard modules and 40 3D armor modules.
+        consider increasing these if slowdowns with many items occur.
+        */
+        "fast_render_cache_sprites": [
             {
                 "x": 16,
                 "y": 16,
-                "count": 30
+                "count": 60
             },
             {
                 "x": 32,
@@ -49,13 +87,8 @@
                 "count": 10
             }
         ],
-        /*
-        requires resource pack reload to be enabled
-        might break in development mode - if stuff stops rendering set this to true
-        */
-        "disable_fast_render": false,
-        "disable_recolor": false,
-        "disable_fast_trim": false
+        // Whether Miapi materials can be animated
+        "animated_materials": true
     },
     "shielding_armor": {
         // the amount of other bars to be offset by
@@ -110,5 +143,10 @@
         - DISABLE VANILLA LIKE!
         */
         "enchanting_material_ratio": 0.4
+    },
+    "inventory_preview": {
+        "top_distance": 20,
+        "max_item_count": 1,
+        "display_time": 3
     }
 }

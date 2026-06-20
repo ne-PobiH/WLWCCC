@@ -5,6 +5,8 @@
 	enable_dndecor_stepped_lever = true
 	#Server/common toggle: enable drag control for Supplementaries crank for all players.
 	enable_supplementaries_crank = true
+	#Server/common toggle: enable drag control for DnDecor breaker switch for all players.
+	enable_dndecor_breaker_switch = true
 
 [server]
 	#Server/common toggle: allow Create-wrench inversion for supported linear levers.
@@ -15,3 +17,5 @@
 	fair_crank_mode = false
 	#Force an extra block update around Supplementaries pulley/rope/chain after ALD crank steps. Helps fast crank movement show immediately.
 	force_pulley_sync = true
+	#Server/common toggle: allow clients to use the Unlock camera mode while a lever interface is open.
+	allow_unlock_camera = true

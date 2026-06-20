@@ -1,20 +1,20 @@
-filename = 'inventoryessentials-neoforge-1.21.1-21.1.15.jar'
+filename = 'inventoryessentials-neoforge-1.21.1-21.1.16.jar'
 name = 'Inventory Essentials'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '21.1.15+neoforge-1.21.1'
+x-prismlauncher-version-number = '21.1.16+neoforge-1.21.1'
 
 [download]
-hash = '87a278093ef1686e6ec88d4db75bdbb99a051555d7d33ec59a1e5bd0a066df9815fa4296133e0a7af09e6b000a124f3d85dda367d9d2522dbab29453163ba8f0'
+hash = 'fe4eef9e499a89197681f65c16936986d4edcbc2bc7ce240cf2cdd6aee9a412427e8bb401f8b2eb6933ac198eb2fe1a80c1c753642d03f98152843d2271949d6'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Boon8xwi/versions/u2c95ldv/inventoryessentials-neoforge-1.21.1-21.1.15.jar'
+url = 'https://cdn.modrinth.com/data/Boon8xwi/versions/xvtHxBJD/inventoryessentials-neoforge-1.21.1-21.1.16.jar'
 
 [update.modrinth]
 mod-id = 'Boon8xwi'
-version = 'u2c95ldv'
+version = 'xvtHxBJD'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'MBAkmtvl'

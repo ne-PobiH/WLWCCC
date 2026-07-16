@@ -27,7 +27,7 @@
   "minecraft:pig": {
     "scale": -6.0,
     "x": 0.0,
-    "y": 0.0
+    "y": 12.0
   },
   "minecraft:allay": {
     "scale": -6.0,

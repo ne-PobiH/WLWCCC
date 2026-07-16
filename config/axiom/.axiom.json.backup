@@ -116,7 +116,7 @@
     "bulldozer": true,
     "replaceMode": false,
     "typeReplace": false,
-    "forcePlace": true,
+    "forcePlace": false,
     "noUpdates": false,
     "tinker": false,
     "infiniteReach": false,

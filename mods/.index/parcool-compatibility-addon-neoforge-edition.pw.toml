@@ -1,0 +1,17 @@
+filename = 'ParCool-CompatibilityAddon-1.21.1-3.4.3.1-1.1.jar'
+name = 'ParCool+ / Compatibility Addon NeoForge Edition'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ParCool-CompatibilityAddon-1.21.1-3.4.3.1-1.1.jar'
+
+[download]
+hash = '4f2232b04b4af124b9ae146b55a6a0f461183425'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7854851
+project-id = 1501234

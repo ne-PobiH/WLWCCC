@@ -1,0 +1,17 @@
+filename = 'create_aeronautics_toolgun-0.2.3.jar'
+name = 'create aeronautics：toolgun'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_aeronautics_toolgun-0.2.3.jar'
+
+[download]
+hash = '44074cc11c23ad738c3f35da119ba346cfcbf752'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8395628
+project-id = 1521349

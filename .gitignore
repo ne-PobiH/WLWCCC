@@ -28,6 +28,12 @@ coremods
 cpm
 crash-reports
 data
+!kubejs/data/
+!kubejs/data/wlwccc/
+!kubejs/data/wlwccc/tags/
+!kubejs/data/wlwccc/tags/worldgen/
+!kubejs/data/wlwccc/tags/worldgen/biome/
+!kubejs/data/wlwccc/tags/worldgen/biome/end_spawn_allowed.json
 debug
 downloads
 dynamic-data-pack-cache

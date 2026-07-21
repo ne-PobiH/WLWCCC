@@ -872,5 +872,41 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //ass guns
+    event.remove({ id: 'create_armorer:create_workbench' })
+    event.remove({ id: 'immersive_armorer:workbench' })
+    event.remove({ id: 'immersive_armorer:gun/standard_rail_pistol_mk3' })
+    event.remove({ id: 'immersive_armorer:gun/standard_rail_pistol_mk2' })
+    event.remove({ id: 'immersive_armorer:gun/standard_rail_smg_mk1' })
+    event.remove({ id: 'immersive_armorer:gun/plasma_gun' })
+    event.remove({ id: 'create_armorer:gun/special_melee_wrench' })
+    event.remove({ id: 'createimmersivetacz:guns/melee_wrench' })
+
+    //good guns need crafts
+    event.remove({ id: 'immersive_armorer:gun/revolver' })
+    event.remove({ id: 'immersive_armorer:gun/pistol_9mm' })
+    event.remove({ id: 'immersive_armorer:gun/railgun' })
+    event.remove({ id: 'immersive_armorer:gun/assult_rifle' })
+    event.remove({ id: 'immersive_armorer:gun/pump_shotgun' })
+    event.remove({ id: 'immersive_armorer:gun/double_shotgun' })
+    event.remove({ id: 'immersive_armorer:gun/short_smg' })
+    event.remove({ id: 'immersive_armorer:gun/chemical_thrower' })
+    event.remove({ id: 'immersive_armorer:gun/dual_barrel_cannon' })
+
+    //create guns dont need crafts
+    event.remove({ id: 'create_armorer:gun/pistol_revolver_torque' })
+    event.remove({ id: 'create_armorer:gun/pistol_auto_stress' })
+    event.remove({ id: 'create_armorer:gun/sniper_semi_clockwork' })
+    event.remove({ id: 'create_armorer:gun/sniper_semi_m1' })
+    event.remove({ id: 'create_armorer:gun/rifle_assult_crane' })
+    event.remove({ id: 'create_armorer:gun/rifle_assult_roller' })
+    event.remove({ id: 'create_armorer:gun/shotgun_db_stone' })
+    event.remove({ id: 'create_armorer:gun/shotgun_pump_bearing' })
+    event.remove({ id: 'create_armorer:gun/smg_auto_crank' })
+    event.remove({ id: 'create_armorer:gun/gl_revolver_devastator' })
+    event.remove({ id: 'create_armorer:gun/cannon_40mm_salamander' })
+    event.remove({ id: 'create_armorer:gun/mg_platemag_flywheel' })
+
+
     console.log('Hello! The recipe event has fired!')
 })

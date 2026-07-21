@@ -56,7 +56,20 @@ XaeroWaypoints_BACKUP240807
 .qmenu_opened.marker
 command_history.txt
 ears-debug.log
-hs_err_pid3780.log
+# Minecraft / Java runtime files generated on launch
+*.log
+hs_err_pid*.log
+replay_pid*.log
+clientId.txt
+realms_persistence.json
+telemetry/
+webcache/
+webcache2/
+natives/
+launcher_accounts.json
+launcher_profiles.json
+launcher_settings.json
+
 patchouli_data.json
 ponders_watched.json
 servers.dat

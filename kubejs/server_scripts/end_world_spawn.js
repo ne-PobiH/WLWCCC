@@ -530,12 +530,15 @@ PlayerEvents.respawned(event => {
     )
 
     if (event.isEndConquered()) {
-      const worldPhase = event.player.server.persistentData.getInt(END_SPAWN_WORLD_PHASE)
+      // Some dragon-fight implementations do not emit EntityEvents.death for
+      // the dragon. Reaching the exit portal with endConquered=true is an
+      // authoritative fallback, so switch the phase here as well. This keeps
+      // a BetterEnd respawn obelisk as the player's personal death-respawn
+      // point without allowing it to override the destination of this portal.
+      switchWorldSpawnToOverworld(event.player.server)
 
-      if (worldPhase == OVERWORLD_PHASE) {
-        const teleportResult = teleportPlayerToOverworldWorldSpawn(event.player)
-        endSpawnDebug(event.player.server, `Exit portal teleport returned: ${teleportResult}`)
-      }
+      const teleportResult = teleportPlayerToOverworldWorldSpawn(event.player)
+      endSpawnDebug(event.player.server, `Exit portal teleport returned: ${teleportResult}`)
     }
   })
 })

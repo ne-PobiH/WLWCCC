@@ -17,7 +17,11 @@ const END_SPAWN_X = 'wlw_end_spawn_x'
 const END_SPAWN_Y = 'wlw_end_spawn_y'
 const END_SPAWN_Z = 'wlw_end_spawn_z'
 const END_SPAWN_BIOME = 'wlw_end_spawn_biome'
-const OVERWORLD_ORIGIN_SPAWN_READY = 'wlw_overworld_origin_spawn_ready'
+const ORIGINAL_OVERWORLD_SPAWN_READY = 'wlw_original_overworld_spawn_ready'
+const ORIGINAL_OVERWORLD_SPAWN_X = 'wlw_original_overworld_spawn_x'
+const ORIGINAL_OVERWORLD_SPAWN_Y = 'wlw_original_overworld_spawn_y'
+const ORIGINAL_OVERWORLD_SPAWN_Z = 'wlw_original_overworld_spawn_z'
+const ORIGINAL_OVERWORLD_SPAWN_ANGLE = 'wlw_original_overworld_spawn_angle'
 
 const END_PHASE = 0
 const OVERWORLD_PHASE = 1
@@ -32,8 +36,6 @@ const END_SPAWN_SEARCH_ATTEMPTS = 48
 const END_SPAWN_SAFE_COLUMN_RADIUS = 64
 const END_SPAWN_SAFE_COLUMN_STEP = 4
 const END_SPAWN_VERTICAL_SCAN = 32
-const OVERWORLD_SPAWN_X = 0
-const OVERWORLD_SPAWN_Z = 0
 
 function endSpawnDebug(server, message) {
   const fullMessage = `[WLW End Spawn Debug] ${message}`
@@ -370,69 +372,51 @@ function setPlayerEndSpawn(player, teleportPlayer) {
   return true
 }
 
-function findOverworldOriginSpawnY(overworld) {
-  overworld.getChunk(
-    Math.floor(OVERWORLD_SPAWN_X / 16),
-    Math.floor(OVERWORLD_SPAWN_Z / 16)
-  )
+function saveOriginalOverworldWorldSpawn(server) {
+  const data = server.persistentData
 
-  const topY = Math.min(
-    overworld.getHeight(
-      EndSpawnHeightmapTypes.MOTION_BLOCKING_NO_LEAVES,
-      OVERWORLD_SPAWN_X,
-      OVERWORLD_SPAWN_Z
-    ),
-    overworld.getMaxBuildHeight() - 2
-  )
-  const minY = Math.max(
-    overworld.getMinBuildHeight() + 1,
-    topY - END_SPAWN_VERTICAL_SCAN
-  )
-
-  for (var y = topY; y >= minY; y--) {
-    var spawnPos = new EndSpawnBlockPos(OVERWORLD_SPAWN_X, y, OVERWORLD_SPAWN_Z)
-    var floorPos = spawnPos.below()
-    var floorState = overworld.getBlockState(floorPos)
-
-    if (!floorState.getFluidState().isEmpty() ||
-        !floorState.isFaceSturdy(overworld, floorPos, EndSpawnDirection.UP)) {
-      continue
-    }
-
-    if (isClearForEndSpawn(overworld, spawnPos) &&
-        isClearForEndSpawn(overworld, spawnPos.above())) {
-      return y
-    }
+  if (data.getBoolean(ORIGINAL_OVERWORLD_SPAWN_READY)) {
+    return
   }
 
-  // This is still a better fallback than literal Y=0, which may be inside
-  // terrain. Vanilla can safely resolve the final world-spawn position nearby.
-  return topY
-}
-
-function setOverworldWorldSpawnAtOrigin(server) {
   const overworld = server.overworld()
-  const y = findOverworldOriginSpawnY(overworld)
-  const spawnPos = new EndSpawnBlockPos(OVERWORLD_SPAWN_X, y, OVERWORLD_SPAWN_Z)
+  const spawnPos = overworld.getSharedSpawnPos()
+  const spawnAngle = overworld.getSharedSpawnAngle()
 
-  overworld.setDefaultSpawnPos(spawnPos, 0)
-  server.persistentData.putBoolean(OVERWORLD_ORIGIN_SPAWN_READY, true)
+  data.putInt(ORIGINAL_OVERWORLD_SPAWN_X, spawnPos.getX())
+  data.putInt(ORIGINAL_OVERWORLD_SPAWN_Y, spawnPos.getY())
+  data.putInt(ORIGINAL_OVERWORLD_SPAWN_Z, spawnPos.getZ())
+  data.putFloat(ORIGINAL_OVERWORLD_SPAWN_ANGLE, spawnAngle)
+  data.putBoolean(ORIGINAL_OVERWORLD_SPAWN_READY, true)
 
   console.info(
-    `[WLW End Spawn] Overworld world spawn set to ` +
-    `${spawnPos.getX()} ${spawnPos.getY()} ${spawnPos.getZ()}`
+    `[WLW End Spawn] Original Overworld world spawn saved at ` +
+    `${spawnPos.getX()} ${spawnPos.getY()} ${spawnPos.getZ()} ` +
+    `(angle ${spawnAngle})`
   )
 }
 
-function ensureOverworldWorldSpawnAtOrigin(server) {
-  if (!server.persistentData.getBoolean(OVERWORLD_ORIGIN_SPAWN_READY)) {
-    setOverworldWorldSpawnAtOrigin(server)
-  }
+function restoreOriginalOverworldWorldSpawn(server) {
+  saveOriginalOverworldWorldSpawn(server)
+
+  const data = server.persistentData
+  const spawnPos = new EndSpawnBlockPos(
+    data.getInt(ORIGINAL_OVERWORLD_SPAWN_X),
+    data.getInt(ORIGINAL_OVERWORLD_SPAWN_Y),
+    data.getInt(ORIGINAL_OVERWORLD_SPAWN_Z)
+  )
+  const spawnAngle = data.getFloat(ORIGINAL_OVERWORLD_SPAWN_ANGLE)
+
+  server.overworld().setDefaultSpawnPos(spawnPos, spawnAngle)
+
+  console.info(
+    `[WLW End Spawn] Original Overworld world spawn restored at ` +
+    `${spawnPos.getX()} ${spawnPos.getY()} ${spawnPos.getZ()} ` +
+    `(angle ${spawnAngle})`
+  )
 }
 
 function teleportPlayerToOverworldWorldSpawn(player) {
-  ensureOverworldWorldSpawnAtOrigin(player.server)
-
   const overworld = player.server.overworld()
   const spawnPos = overworld.getSharedSpawnPos()
 
@@ -456,11 +440,11 @@ function switchWorldSpawnToOverworld(server) {
   const data = server.persistentData
 
   if (data.getInt(END_SPAWN_WORLD_PHASE) == OVERWORLD_PHASE) {
-    ensureOverworldWorldSpawnAtOrigin(server)
+    restoreOriginalOverworldWorldSpawn(server)
     return
   }
 
-  setOverworldWorldSpawnAtOrigin(server)
+  restoreOriginalOverworldWorldSpawn(server)
   data.putInt(END_SPAWN_WORLD_PHASE, OVERWORLD_PHASE)
 
   // Do not call player.setSpawnLocation here. That method replaces a bed or
@@ -476,10 +460,10 @@ ServerEvents.loaded(event => {
     endSpawnDebug(event.server, `ServerEvents.loaded fired; world phase=${worldPhase}`)
 
     if (worldPhase == END_PHASE) {
+      saveOriginalOverworldWorldSpawn(event.server)
       ensureEndSpawn(event.server)
     } else {
-      // Migrates worlds which had already switched phase with the old script.
-      ensureOverworldWorldSpawnAtOrigin(event.server)
+      restoreOriginalOverworldWorldSpawn(event.server)
     }
   })
 })

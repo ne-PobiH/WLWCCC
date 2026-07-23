@@ -110,7 +110,7 @@ mobStats.forEach(stats => {
 
 EntityEvents.beforeHurt(event => {
   const source = event.source
-  const attacker = source.getEntity()
+  const attacker = source.getActual()
 
   if (attacker == null) {
     return
@@ -128,7 +128,7 @@ EntityEvents.beforeHurt(event => {
     return
   }
 
-  const directEntity = source.getDirectEntity()
+  const directEntity = source.getImmediate()
   const directId = getEntityId(directEntity)
 
   if (stats.shoot_strength != null && projectileTypes[directId]) {
